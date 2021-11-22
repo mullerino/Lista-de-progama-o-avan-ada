@@ -1,0 +1,5 @@
+Diante do programa apresentado tem-se:
+° p == &i; ==> TRUE
+° *p - *q; ==> -Z
+° **&p; ==> 3
+° 3 - *p/(*q) + 7; ==> 10
