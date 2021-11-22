@@ -70,5 +70,13 @@ for (int l = 0; l<lA; l++){
     printf("Matriz C[%d][%d] = %d\n", l+1,c+1,C[l][c]);
   }
 }
+
+free(C[0]);
+free(C);
+free(B[0]);
+free(B);
+free(A[0]);
+free(A);
+
   return 0;
 }

@@ -42,5 +42,8 @@ int main(void) {
   printf("vetorsoma[%d] = %d \n",a,vetorsoma[a]);
   }
 
+  free(vetorsoma);
+  free(vetor2);
+  free(vetor1);
   return 0;
 }
