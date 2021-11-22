@@ -1,5 +1,28 @@
 #include <stdio.h>
 
+/* Programa simples para observar o endereço das variáveis quando incrementamos. Se considerarmos o endereço inicial de x como 4092 os resultados serão:
+
+char:
+x+1 = 4093
+x+2 = 4094
+x+3 = 4095
+
+int:
+x+1 = 4094
+x+2 = 4096
+x+3 = 4098
+
+float:
+x+1 = 4096
+x+2 = 4100
+x+3 = 4104
+
+double:
+x+1 = 4100
+x+2 = 4108
+x+3 = 4116
+*/
+
 int main(void) {
   char *x[4];
   char *x1;
