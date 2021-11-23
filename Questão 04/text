@@ -1,0 +1,6 @@
+Dada as condiçoes exigidas, as seguintes expressões são ilegais:
+b- *q = &*&j;
+d- i = (*&)j;
+f- i = &&j;
+g- q = *p;
+h- i = (*p) + *q;
