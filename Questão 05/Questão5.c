@@ -24,7 +24,7 @@ printf("%d \n", valor); // impressão do valor 20.
 temp = 26.5;
 p2 = &temp;
 *p2 = 29.0;
-printf("%.1f \n", temp); // impressão do valor 19.
+printf("%.1f \n", temp); // impressão do valor 29.
 
 
 /* (c) */
