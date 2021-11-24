@@ -41,5 +41,3 @@ getchar();
 
 return 0;
 }
-
-// Utilizando a função qsort o tempo de execução do programa foi menor.

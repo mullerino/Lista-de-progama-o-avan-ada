@@ -36,7 +36,7 @@ printf("%c \n", aux); // impressão da letra p.
 /* (d) */
 p3 = &nome[4];
 aux = *p3;
-printf("%c \n", aux); // impressão da letra l.
+printf("%c \n", aux); // impressão da letra e.
 
 
 /* (e) */
